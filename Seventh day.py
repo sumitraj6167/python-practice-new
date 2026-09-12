@@ -36,3 +36,13 @@ for i in range(0, rows):
         #display star
         print("* ", end="")
     print("")
+
+#Program to Multiplication table pattern.
+
+rows = int(input("Enter the number of rows "))
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):
+        #multiplication current column and row
+        square = i * j
+        print(i * j, end='  ')
+    print()
