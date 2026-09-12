@@ -10,3 +10,14 @@ for i in range(1, rows):
             print(num, end=' ')
             num += 1
     print('')
+
+#Another name for this pattern is a right andled triangle pyramid.
+
+rows = int(input("Enter the number of rows"))
+for i in range(0, rows):
+    #nested loop for each column
+    for j in range(0, i + 1):
+        #print star
+        print("*", end=' ')
+    #new line after each row
+    print("\r")
