@@ -21,3 +21,12 @@ for i in range(0, rows):
         print(character, end=' ')
         ascii_number += 1
     print(" ")
+
+#pattern to display latters of the words.
+
+word = input("Enter the word ")
+x = ""
+for i in word:
+    x += i
+    print(x)
+    
