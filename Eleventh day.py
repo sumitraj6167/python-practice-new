@@ -1,4 +1,4 @@
-#Addition of two matrices using Numpy.
+#Addition of two Matrices using Numpy.
 
 import numpy as np
 A = np.array([[2, 4], [5, -6]])
