@@ -1,4 +1,4 @@
-#python program to remove the characters of add index values in a string.
+#python program to remove the characters of odd index values in a string.
 
 def modify(string):
     final = ""
@@ -8,3 +8,13 @@ def modify(string):
     return final
 string=input("ENter string:")
 print("Modified string is:" ,modify(string))
+
+#python program to remove the nth index character from a non-empty string.
+
+def remove(string, n):
+    first = string[:n]
+    last = string[n+1:]
+    return first + last
+string=input("ENter the sring:")
+n=int(input("Enter the index of the character to remove:"))
+print("Modifed string:", remove(string,n))
