@@ -18,3 +18,9 @@ def remove(string, n):
 string=input("ENter the sring:")
 n=int(input("Enter the index of the character to remove:"))
 print("Modifed string:", remove(string,n))
+
+#python program to take a string and replace every blank space with a hypen.
+
+string=input("Enter string:")
+string=string.replace(' ' , '_')
+print("Modified string:" ,string)
