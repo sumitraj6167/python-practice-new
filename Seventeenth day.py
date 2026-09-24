@@ -22,5 +22,5 @@ print("Modifed string:", remove(string,n))
 #python program to take a string and replace every blank space with a hypen.
 
 string=input("Enter string:")
-string=string.replace(' ' , '_')
+string=string.replace(' ' , '-')
 print("Modified string:" ,string)
